@@ -12,8 +12,6 @@ Essa plataforma inclui várias ferramentas e funcionalidades, como:
 
 O sistema é dividido em módulos interconectados que desempenham diferentes funções na plataforma:
 
-![Fluxograma da Aplicação](./fluxo-aeiou.ai.png)
-
 1. **Formulário de Coleta de Dados**: Inicialmente projetado para ser um bot de coleta, mas simplificado para um formulário onde usuários podem inserir dados. Esse formulário será a entrada principal de informações de reuniões e tensões identificadas.
 
 2. **Validação dos Dados**: Após a entrada dos dados, um módulo de validação verifica a consistência e integridade dos dados antes de enviá-los para o banco de dados.
@@ -30,26 +28,9 @@ O sistema é dividido em módulos interconectados que desempenham diferentes fun
 
 8. **Ferramentas e Funções Adicionais**: Além das ferramentas principais, o sistema contém ferramentas auxiliares para a gestão e visualização de dados adicionais.
 
-## Descrição do Fluxo de Trabalho
-
-1. **Formulário de Coleta de Dados**: O usuário insere dados de uma reunião ou situação de tensão.
-2. **Validação dos Dados**: Os dados são validados para garantir consistência.
-3. **Banco de Dados**: Dados válidos são armazenados no banco de dados.
-4. **Tratamento de Dados**: Dados armazenados são processados para remover duplicações e erros.
-5. **Criação de Views**: As informações são transformadas em gráficos e visualizações relevantes.
-6. **Dashboard**: As visualizações geradas são apresentadas ao usuário no dashboard.
-7. **Acesso às Ferramentas**: Usuários logados podem acessar as ferramentas diretamente no site.
-
 ## Objetivos do Projeto
 
 1. **Redução de Conflitos**: Identificar e antecipar conflitos organizacionais, promovendo um ambiente de trabalho mais colaborativo.
 2. **Melhoria na Tomada de Decisão**: Oferecer dados visuais para ajudar nas decisões de gestores e equipes, reduzindo vieses.
 3. **Aumento da Eficiência em Reuniões**: Melhorar a qualidade e eficácia das reuniões com relatórios automáticos de participação e engajamento.
 4. **Transparência e Autogestão**: Aumentar a transparência dos dados para que colaboradores possam gerenciar suas interações de forma autônoma.
-
-## Tecnologias e Ferramentas Utilizadas
-
-- **Banco de Dados**: DynamoDB da AWS
-- **Front-End**: Next.js
-- **Back-End**: Golang
-- **Visualização de Dados**: Metabase
